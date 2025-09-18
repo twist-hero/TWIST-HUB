@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWISTHub - Premium Courses & Accounts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">TWISTHub</span>
+            <div class="logo-animation"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#accounts">Accounts</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Premium Digital Products</h1>
+            <p class="hero-subtitle">Courses, Tools & Accounts to Boost Your Digital Life</p>
+            <button class="cta-button pulse">Explore Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="pic/digital.jpg" alt="Digital Products" class="floating">
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="category-card" data-category="courses">
+            <div class="category-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Courses</h3>
+            <p>Learn from the best experts</p>
+        </div>
+        <div class="category-card" data-category="tools">
+            <div class="category-icon">
+                <i class="fas fa-tools"></i>
+            </div>
+            <h3>Tools</h3>
+            <p>Boost your productivity</p>
+        </div>
+        <div class="category-card" data-category="accounts">
+            <div class="category-icon">
+                <i class="fas fa-user-shield"></i>
+            </div>
+            <h3>Accounts</h3>
+            <p>Premium access at best prices</p>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="courses" class="products-section">
+        <h2 class="section-title">Featured Courses</h2>
+        <div class="products-grid">
+            <!-- Course items will be loaded here via JavaScript -->
+        </div>
+    </section>
+
+    <section id="tools" class="products-section">
+        <h2 class="section-title">Developer Tools</h2>
+        <div class="products-grid">
+            <!-- Tool items will be loaded here via JavaScript -->
+        </div>
+    </section>
+
+    <section id="accounts" class="products-section">
+        <h2 class="section-title">Premium Accounts</h2>
+        <div class="products-grid">
+            <!-- Account items will be loaded here via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+                <p>"Got a Netflix account at half the price! Working perfectly for 6 months now."</p>
+                <div class="testimonial-author">- Sarah J.</div>
+            </div>
+            <div class="testimonial-slide">
+                <p>"The Python course was exactly what I needed to switch careers. Highly recommended!"</p>
+                <div class="testimonial-author">- Michael T.</div>
+            </div>
+            <div class="testimonial-slide">
+                <p>"Premium Grammarly account delivered instantly. Will buy again!"</p>
+                <div class="testimonial-author">- Emily R.</div>
+            </div>
+        </div>
+        <div class="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to get exclusive deals and new product notifications</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="submit-button">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TWISTHub</h3>
+                <p>Your one-stop shop for premium digital products, courses, and accounts.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#accounts">Accounts</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> support@digitalhub.com</p>
+                <p><i class="fas fa-phone"></i> +(233)550778863</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TWISTHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <span class="close-cart">&times;</span>
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be loaded here -->
+            </div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-price">$0.00</span>
+            </div>
+            <button class="proceed-to-checkout">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+</body>
+</html>
